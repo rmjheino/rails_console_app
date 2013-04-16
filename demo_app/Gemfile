@@ -5,6 +5,12 @@ gem 'rails', '4.0.0.beta1'
 
 gem 'sqlite3'
 
+gem 'hocus_pocus'
+
+gem 'rack-webconsole-pry', :require => 'rack-webconsole'
+
+gem 'rails-web-console', :require => 'console', :group => 'development'
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
